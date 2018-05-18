@@ -1,0 +1,35 @@
+{
+  "name": "@ysugimoto/claydoll",
+  "version": "1.0.0",
+  "description": "JS/CSS bundle tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysugimoto/claydoll.git"
+  },
+  "author": "Yoshiaki Sugimoto <sugimoto@wnotes.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysugimoto/claydoll/issues"
+  },
+  "homepage": "https://github.com/ysugimoto/claydoll#readme",
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "browser-sync": "^2.24.4",
+    "chokidar": "^2.0.3",
+    "csso": "^3.5.0",
+    "node-sass": "^4.9.0",
+    "postcss": "^6.0.22",
+    "postcss-discard-duplicates": "^2.1.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
